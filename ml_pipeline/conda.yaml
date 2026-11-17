@@ -1,0 +1,18 @@
+
+name: bank-marketing-ml
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+
+  - pip:
+      - mlflow
+      - scikit-learn
+      - pandas
+      - numpy
+      - joblib
+      - pytest
+      - pyyaml

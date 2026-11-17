@@ -1,0 +1,48 @@
+
+{
+    "dataset_name": "Bank Marketing LLM Evaluation Dataset",
+    "version": "1.0",
+    "description": "Sample customer records for testing ML predictions and LLM-generated marketing recommendations.",
+    "test_cases": [
+        {
+            "case_id": "customer_001",
+            "customer": {
+                "age": 42,
+                "job": "management",
+                "marital": "married",
+                "education": "tertiary",
+                "default": "no",
+                "balance": 1500,
+                "housing": "no",
+                "loan": "no",
+                "contact": "cellular",
+                "day": 15,
+                "month": "may",
+                "campaign": 1,
+                "pdays": -1,
+                "previous": 0,
+                "poutcome": "unknown"
+            }
+        },
+        {
+            "case_id": "customer_002",
+            "customer": {
+                "age": 35,
+                "job": "technician",
+                "marital": "single",
+                "education": "secondary",
+                "default": "no",
+                "balance": 500,
+                "housing": "yes",
+                "loan": "no",
+                "contact": "cellular",
+                "day": 20,
+                "month": "jul",
+                "campaign": 3,
+                "pdays": 90,
+                "previous": 2,
+                "poutcome": "failure"
+            }
+        }
+    ]
+}

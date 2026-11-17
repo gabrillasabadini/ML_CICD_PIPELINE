@@ -221,3 +221,34 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# ML_CICD_PIPELINE specific exclusions
+
+# Virtual environment
+myenv/
+.venv/
+
+# MLflow tracking
+mlruns/
+mlflow.db
+mlflow.db-journal
+mlflow.db-shm
+mlflow.db-wal
+
+# Trained model artifacts
+# Keep models/ tracked because GitHub Actions tests require these files.
+# Ignore only temporary model files if generated.
+*.pkl
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+
+# Dataset files
+data/raw/
+data/processed/

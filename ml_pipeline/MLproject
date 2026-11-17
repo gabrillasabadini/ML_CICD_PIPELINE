@@ -1,0 +1,15 @@
+
+name: bank_marketing_ml_pipeline
+
+conda_env: conda.yaml
+
+entry_points:
+
+  train:
+    command: "python train.py"
+
+  validate:
+    command: "python validate.py"
+
+  main:
+    command: "python train.py"
